@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+  } 
+
+body {
+    color: white;
+}
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: rgba(19, 114, 206, 1);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+
+.devolverse {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+    height: 50px;
+    width: 200px;
+
+}
+
+.devolverse {
+    font-size: 20px;
+    color: white;
+    transition: 0.1s;
+}
+
+.devolverse i{
+    font-size: 32px;
+    color: white;
+    transition: 0.1s;
+}
+
+.devolverse:hover {
+    color: rgb(236, 231, 75);
+}
+
+.devolverse i:hover{
+    color: rgb(236, 231, 75);
+}
+
+
+.fotos {
+    background-color:  rgb(192, 216, 252);
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.fotos .pequeñas .primeraft {
+    margin-top: 100px;
+    transition: 0.1s;
+}
+
+.fotos .pequeñas .primeraft:hover {
+    scale: 1.1;
+}
+
+.fotos .pequeñas {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 30px;
+    justify-content: space-between;
+
+
+}
+
+.fotos .pequeñas img {
+    margin-left: 80px;
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.228);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.fotos .pequeñas .segundaft {
+    margin-top: 50px;
+    transition: 0.1s;
+}
+
+.fotos .pequeñas .segundaft:hover {
+    scale: 1.1;
+}
+
+.fotos .ftPrincipal img {
+    margin-top: 200px;
+    margin-left: 80px;
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.255);
+    border-radius: 30px;
+    transition: 0.1s;
+}
+
+.fotos .ftPrincipal:hover {
+    scale: 1.1;
+}
+
+.informacionPeluche {
+    background-color: white;
+    padding: 50px;
+transform: translate(50px, 50px);
+
+}
+
+.informacionPeluche h1 {
+  color:  rgba(19, 114, 206, 1);
+
+}
+
+.informacionPeluche h4 {
+    color: rgba(128, 128, 128, 0.635);
+}
+
+.informacionPeluche p {
+    color: rgb(0, 0, 0);
+}
+.informacionPeluche ul {
+    color: rgba(49, 49, 49, 0.835);
+    margin-left: 10px;
+}
+
+.informacionPeluche li {
+    margin-top: 10px;
+}
+
+.informacionPeluche h3 {
+    color: rgba(19, 112, 206, 0.699);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.informacionPeluche hr {
+    height: 10px;
+    background-color:  rgb(192, 216, 252);
+    width: 100%;
+    border: none;
+    margin-top: 40px;
+
+}
+
+.informacionPeluche .texto {
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.informacionPeluche .iconos {
+    color:  rgba(128, 128, 128, 0.739);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    text-align: right;
+    font-size: 18px;
+    padding-top: 20px;
+    transition: 0.5s;
+}
+
+.iconos a:hover {
+    color:  rgba(19, 114, 206, 1);
+
+}
+
+.informacionPeluche .iconos i {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.cantidad {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.cantidad h1 {
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.cantidad .añadir {
+    font-size: 20px;
+    margin-top: 220px;
+
+}
+

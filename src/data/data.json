@@ -1,0 +1,81 @@
+[
+    {
+      "name": "Ángel Experimento 624",
+      "caracteristica1": "Tela suave",
+      "caracteristica2": "Antialergico",
+      "caracteristica3": "Acabados perfectos",
+      "precio": "38.900",
+      "cantidad": ["1", "2", "3", "4"],
+      "imagenes": [
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/peluche%20rosada%20sti.webp",
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/peluche%20rosada%20sti%20espaldas.webp",
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/angel%20mas%20cerca.webp"
+      ]
+    },
+    {
+      "name": "Stitch comiendo helado",
+      "caracteristica1": "Tamaño ideal",
+      "caracteristica2": "Antialergico",
+      "caracteristica3": "Diseño detallado",
+      "precio": "27.900",
+      "cantidad": ["1", "2", "3", "4"],
+      "imagenes": [
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/principal%20stit%20azul%20con%20helado.webp",
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/stit%20azul%20con%20helado%20de%20espladas.webp",
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/stit%20azul%20con%20helado%20de%20lado.webp"
+      ]
+    },
+    {
+      "name": "Angela comiendo helado",
+      "caracteristica1": "Relleno esponjoso",
+      "caracteristica2": "Tamaño ideal",
+      "caracteristica3": "Diseño detallado",
+      "precio": "27.900",
+      "cantidad": ["1", "2", "3", "4"],
+      "imagenes": [
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/principal%20stit%20rosada%20con%20helado.webp",
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/stit%20rosada%20con%20helado%20de%20lado.webp",
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/stit%20roasda%20con%20helado%20de%20espaldas.webp"
+      ]
+    },
+    {
+      "name": "Mickey Clasico",
+      "caracteristica1": "Relleno esponjoso",
+      "caracteristica2": "Tamaño ideal",
+      "caracteristica3": "Diseño detallado",
+      "precio": "20.000",
+      "cantidad": ["1", "2", "3", "4"],
+      "imagenes": [
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/peluche%20mickey.webp",
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/peluche%20mickey%20sentado.webp",
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/mickey%20jugando.webp"
+      ]
+    },
+    {
+      "name": "Tristeza",
+      "caracteristica1": "Costuras reforzadas",
+      "caracteristica2": "Colores vibrantes",
+      "caracteristica3": "Facil de lavar",
+      "precio": "35.900",
+      "cantidad": ["1", "2", "3", "4"],
+      "imagenes": [
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/tristeza%20peluche%20.webp",
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/tristeza%20peluche%20de%20espaldas.webp",
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/tristeza%20jugando.webp"
+      ]
+    },
+    {
+      "name": "Minnie Clasica",
+      "caracteristica1": "Colores vivos",
+      "caracteristica2": "Tamaño ideal",
+      "caracteristica3": "Relleno esponjoso",
+      "precio": "20.000",
+      "cantidad": ["1", "2", "3", "4"],
+      "imagenes": [
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/minnie.webp",
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/minnie%20sentada.webp",
+        "https://raw.githubusercontent.com/icalvo0130/DisneyStore/refs/heads/main/fotos/minnie%20de%20espaldas.webp"
+      ]
+    }
+  ]
+  

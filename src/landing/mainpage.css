@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body {
+    color: white;     
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+  }
+
+  section {
+    padding: 0rem 9%;
+}
+
+
+  .banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    padding-left: 32px;
+    padding-right: 160px;
+    background: rgba(19, 114, 206, 1);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#nav-items{
+    display: flex;
+    font-weight: 600;
+    gap: 50px;
+}
+#nav-items a {
+    color: white;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.busqueda {
+    width: 400px;
+    height: 40px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-top: 2rem;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+}
+
+input {
+    width: 100%;
+    height: 60px;
+    color: rgba(19, 114, 206, 1);
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background: transparent;
+    position: relative;
+    bottom: 20px;
+}
+
+.busqueda i {
+    font-size: 20px;
+    color: rgba(19, 114, 206, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: right;
+    position: relative;
+    bottom: 60px;
+}
+
+.contenidoInicio {
+    max-width: 630px; 
+}
+
+.contenidoInicio {
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+.contenidoInicio p {
+    font-size: 16px;
+    margin: 25px 0 30px;
+}
+
+h1 span {
+    color: rgb(236, 231, 75);
+    font-size: larger;
+}
+
+.tercero h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+    color: rgba(19, 114, 206, 1);
+}
+
+.tercero .filtroProductos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tercero .filtros {
+    width: 40%;
+    background: rgb(247, 247, 247);
+    padding: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.tercero .filtros h2 {
+    color: rgba(19, 114, 206, 1);
+    padding-bottom: 20px;
+}
+
+.tercero .filtros ul{
+    list-style: none;
+
+}
+
+.tercero .filtros ul li {
+    margin-top: 10px;
+}
+
+.tercero .filtros ul li a {
+    color: black;
+    text-decoration: none;
+    transition: 0.1s;
+}
+.tercero .filtros ul li a:hover {
+    color: rgba(19, 112, 206, 0.843);;
+
+}
+input {
+    width: 100%;
+    height: 60px;
+    color: rgba(19, 114, 206, 1);
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background: transparent;
+    position: relative;
+    bottom: 20px;
+}
+
+.busqueda i {
+    font-size: 20px;
+    color: rgba(19, 114, 206, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: right;
+    position: relative;
+    bottom: 60px;
+}
+
+.logo img {
+    height: 50px;
+    width: 200px;
+}
+
+.inicio {
+    width: 100%;
+    height: 100vh;
+    background: url(../../fotos/fondo1jpg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: right;
+    padding: 50px 8% 0;
+    background-color: rgb(228, 228, 255);
+}
+
+.contenidoInicio {
+    max-width: 630px; 
+}
+
+.contenidoInicio {
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+.contenidoInicio p {
+    font-size: 16px;
+    margin: 25px 0 30px;
+}
+
+.TituloEstrella {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    color: rgba(19, 114, 206, 1);
+    margin-top: 30px;
+}
+
+.losEstrella .boxContainer .box .image {
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow: hidden;
+    border-radius: 30px;
+    transition: 0,3s;
+}
+
+.losEstrella .boxContainer .box .image:hover img {
+    position: relative;
+    top: -40px;
+    opacity: 1;
+
+}
+ 
+
+.losEstrella .boxContainer {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 1.5rem; 
+    justify-content: space-between;
+}
+
+.losEstrella i {
+    color: rgb(255, 255, 255);
+    font-size: 20px;  
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.losEstrella i:hover {
+    color: rgba(19, 114, 206, 1);
+
+}
+
+.losEstrella h3 {
+    font-size: 25px;
+}
+
+.box {
+    margin-top: 35px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 50px;
+}
+
+.card {
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  background-color: rgba(19, 114, 206, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+
+.card img {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.ajust {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconos {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 4px;
+    flex-direction: row-reverse;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color:  rgb(236, 231, 75);
+}
+
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem 3rem;
+    background-color: rgba(19, 114, 206, 1);
+    color: white;
+}
+
+.footer-content h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-content p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+.socials li a{
+    font-size: 18px;
+    color: white;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="product-title">Detalles del Producto</title>
+    <link rel="stylesheet" href="productos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="banner">
+        <a href="#" class="devolverse" onclick="window.history.back(); return false;">
+            <i class='bx bx-chevrons-left'></i> 
+            <h3> Volver </h3>
+        </a>
+    </header>
+
+    <div class="fotos">  
+        <div class="pequeñas">
+           <div class="primeraft"> 
+               <img src="" alt="Imagen 1" id="image1">
+           </div> 
+           <div class="segundaft">
+               <img src="" alt="Imagen 2" id="image2">
+           </div>
+        </div>
+
+        <div class="ftPrincipal">
+            <img src="" alt="Imagen Principal" id="main-img">
+        </div>
+
+        <div class="informacionPeluche">
+            <div class="texto">
+                <h1 id="title"></h1>
+                <h4 id="price"></h4>
+                <hr>
+                <h3> Magia en cada detalle </h3>
+                <ul>
+                    <li id="caracteristica1"></li>
+                    <li id="caracteristica2"></li>
+                    <li id="caracteristica3"></li>
+                </ul> 
+                <hr>
+                <div class="iconos">
+                    <a href="#" class="fav" id="fav"> <i class='bx bx-heart'></i> </a>
+                </div>
+                <div class="cantidad">
+                    <div class="añadir">
+                        <a href="#"><i class='bx bx-plus-circle'></i></a>
+                    </div>
+                    <h1 id="section">1</h1>
+                    <div class="añadir">
+                        <a href="#"><i class='bx bx-minus-circle'></i></a>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </div>
+    
+    <script src="../data/Products.js"></script>
+    <script src="details.js"></script>
+</body>
+</html>

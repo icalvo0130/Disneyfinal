@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body, html {
+    height: 120vh;
+    color: white;
+    background-color: rgb(192, 216, 252);
+}
+
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    padding-left: 32px;
+    padding-right: 160px;
+    background: rgba(19, 114, 206, 1);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#nav-items {
+    display: flex;
+    font-weight: 600;
+    gap: 50px;
+}
+
+#nav-items a {
+    color: white;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.logo img {
+    height: 50px;
+    width: 200px;
+}
+
+
+.wishlist-container {
+    width: 100%;
+    text-align: center;
+}
+
+#Bannerprincesa {
+    margin-top: 7rem;
+    background-image: url("https://cdn-ssl.s7.shopdisney.com/is/image/ShopDisney/WishlistHeaderV502?$xlargeFull$&fit=constrain&fmt=webp&cropN=0,0,1,1");
+    height: 45vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text {
+    color: #ffffff;
+    margin-top: 5rem;
+}
+
+
+.wishlist-body {
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  gap: 50px;
+}
+
+
+.losEstrella .boxContainer .box .image {
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow: hidden;
+    border-radius: 30px;
+    transition: 0,3s;
+}
+
+.losEstrella .boxContainer .box .image:hover img {
+    position: relative;
+    top: -40px;
+    opacity: 1;
+
+}
+ 
+
+.losEstrella .boxContainer {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 1.5rem; 
+    justify-content: space-between;
+}
+
+.losEstrella i {
+    color: rgb(255, 255, 255);
+    font-size: 20px;  
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.losEstrella i:hover {
+    color: rgba(19, 114, 206, 1);
+
+}
+
+.losEstrella h3 {
+    font-size: 25px;
+}
+
+.card {
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  background-color: rgba(19, 114, 206, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+
+.card img {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+}
+
+.content {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.ajust {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconos {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 4px;
+    flex-direction: row-reverse;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconos {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 4px;
+    flex-direction: row-reverse;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.iconos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.iconos i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.iconos i:hover {
+    color: rgba(19, 114, 206, 1);
+}
+
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 40px 0;
+    background-color: rgb(192, 216, 252);
+}
+
+.center-button button {
+    border: none;
+    background-color: rgba(19, 114, 206, 1);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.center-button button:hover {
+    background-color: rgba(19, 114, 206, 0.8);
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem 3rem;
+    background-color: rgba(19, 114, 206, 1);
+    color: white;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.socials li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
